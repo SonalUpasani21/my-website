@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Sonal Upasani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+
+
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Sonal Upasani</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About Me</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#Experience">Experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#blogs">Blogs</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#contact">Contact Me</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#contact">Contact Me</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="home" style="min-height: 100vh;">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                <img src="/sona port/img/sonal.pnga" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">
+                    Hey I'm <span>Sonal Upasani</span>
+                </h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+                    I'm a <span class="typewriter-text"></span><span class="cursor">|</span>
+                </div>
+                <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                    <a href="https://github.com/SonalUpasani21"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sonal-upasani-315875b3/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                    <a href="Sonal_Upasani.pdf">
+                        <button>Download CV</button>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" style="min-height: 100vh;">
+        <div class="about-container">
+            <!-- Left side: GIF -->
+            <div class="about-left" data-aos="fade-right" data-aos-duration="1000">
+                <img src="https://camo.githubusercontent.com/cb6dcae85515ccc37d69a22a9e91c0ed66eee9ab05f2088c8ae6085d2954e24b/68747470733a2f2f6469676974616c63726561746976656d696e642e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032312f30362f416e616c79746963735f616d705f446174615f536369656e63652e676966" alt="About Me GIF">
+            </div>
+    
+            <!-- Right side: Description and Contact Me Button -->
+            <div class="about-right" data-aos="fade-left" data-aos-duration="1000">
+                <h2>About Me</h2>
+                <p>
+                    I'm a passionate business analyst with a love for solving problems using technology.
+                    I focus on creating meaningful solutions in the tech industry with a strong foundation 
+                    in both business and analytics. Let's build something amazing together!
+                </p>
+                <a href="#contact" class="contact-btn">
+                    Contact Me
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="skills">
+        <div class="section-container" data-aos="fade-right" data-aos-duration="1000">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>Power BI</li>
+                <li>Flowchart using BMP</li>
+                <li>Data Cleaning</li>
+                <li>SQL</li>
+                <li>Machine Learning & AI</li>
+                <li>Communication</li>
+                <li>Time management</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Experience" class="timeline">
+        <div class="container">
+            <h1>Professional Experience</h1>
+            <ul>
+                <li>
+                    <div>
+                        <time>March 2025 - April 2025</time>
+                        <strong>Data Analyst Intern</strong> at <em>St. Lawrence College</em><br>
+                        <p>&#10687; Collaborated on a data analytics project for a property management client, analyzing rental property performance using financial data from 50+ income statement PDFs.</p>
+                        <p>&#10687; Led efforts in automated data extraction and anomaly detection using Google Vertex AI, significantly reducing manual data entry and improving accuracy.</p>
+                        <p>&#10687; Built a scalable data pipeline integrating Google Cloud Storage, Vertex AI, and Google Sheets, enabling real-time data flow into Power BI dashboards.</p>
+                        <p>&#10687; Developed interactive Power BI dashboards showcasing key metrics such as rental income, operating expenses, and property-level profitability.</p>
+                        <p>&#10687; Conducted data validation and quality checks to ensure accuracy and consistency, delivering reliable insights to stakeholders.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>March 2021 - August 2023</time>
+                        <strong>Administarive Executive</strong> at <em>Shree Gurukrupa Products</em><br>
+                        <p>&#10687; Spearheaded sales initiatives and marketing campaigns to increase revenue and market share.</p>
+                        <p>&#10687; Developed and implemented marketing strategies to promote products and services, resulting in improved brand visibility and customer engagement.</p>
+                        <p>&#10687; Conducted market research and analysis to identify customer needs, preferences, and trends, informing strategic decision-making.</p>
+                        <p>&#10687; Managed customer relationships, addressing inquiries, resolving issues, and ensuring high levels of customer satisfaction.</p>
+                        <p>&#10687; Oversaw administrative tasks, including but not limited to data entry, scheduling, and maintaining documentation.</p>
+                        <p>&#10687; Utilized CRM software to track sales activities, monitor customer interactions, and generate insights for sales and marketing strategies.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Sept 2024 - Present</time>
+                        <strong>Barista</strong> at <em>Loblaws Companies- Starbucks</em><br>
+                        <p>&#10687; Greet customers, take orders, prepare drinks, and offer product recommendations. </p>
+                        <p>&#10687; Manage transactions and handle cash accurately.</p>
+                        <p>&#10687; Collaborate with team members for smooth operations.</p>
+                        <p>&#10687; Stay informed on menu items and promotions to boost sales.</p>
+                            
+                    
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="education">
+        <div class="container">
+            <h1>Education</h1>
+            <ul>
+                <li>
+                    <div>
+                        <time>Jan 2024 - April 2025</time>
+                        <strong>Postgraduate Certification</strong> at <em>St. Lawrence College</em><br>
+                        <p>Specialized in Business Analytics. Completed multiple projects related to data-driven decision-making and strategic management.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>August 2012 - May 2017</time>
+                        <strong>Bachelor Of Engineering</strong> at <em>Watumull Institute of Technology</em><br>
+                        <p>Specialized in Biomedical Engineering, with a focus on medical devices and healthcare technology.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+     
+    
+    <section id="projects" class="section-wrapper">
+        <div class="section-container" data-aos="fade-up" data-aos-duration="1000">
+            <h2>Project</h2>
+            <div class="projects-list">
+                <!-- Project Card 1 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                    <img src="/sona port/img/bank_image.png" alt="Project Image">
+                    <div class="project-content">
+                        <h3>Bankruptcy Prediction</h3>
+                        <p>Bankruptcy prediction using financial data through EDA, preprocessing, and classification models.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/SonalUpasani21/bankruptcy_prediction" target="_blank" class="btn github-btn">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <button class="btn details-btn" onclick="openModal('Bankruptcy Prediction', 'This project predicts corporate bankruptcy using financial data. It involves preprocessing, exploratory data analysis (EDA), and building classification models.')">
+                                <i class='bx bx-detail'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project Card 2 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                    <img src="/sona port/img/student.jpg" alt="Project Image">
+                    <div class="project-content">
+                        <h3>Student Basket</h3>
+                        <p>User-centered design of a grocery app for international students, from research to Figma prototyping.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/SonalUpasani21/student_basket_ux" target="_blank" class="btn github-btn">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <button class="btn details-btn" onclick="openModal('Student Basket', 'This project focuses on enhancing the user experience for a grocery app designed for international students. It follows a user-centered design process, from research to prototyping using Figma.')">
+                                <i class='bx bx-detail'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Project Card 3 -->
+                <div class="project-card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600">
+                    <img src="/sona port/img/rental.jpg" alt="Project Image">
+                    <div class="project-content">
+                        <h3>Rental Property Data Analysis</h3>
+                        <p>Automated extraction and analysis of rental income and expenses from property management PDFs, with insights visualized in Power BI.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com" target="_blank" class="btn github-btn">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <button class="btn details-btn" onclick="openModal('Rental Property Data Analysis', 'This project automates the extraction and analysis of rental income and expense data from property management PDF statements. The extracted data is cleaned, transformed, and visualized in Power BI to provide actionable insights into property performance.')">
+                                <i class='bx bx-detail'></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal Popup -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-title">Project Title</h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+    
+    
+    <section id="contact" class="section-wrapper" style="min-height: 100vh;">
+        <div class="section-container" data-aos="fade-down" data-aos-duration="1000">
+            <h2>Contact Me</h2>
+            <div class="contact-wrapper">
+                <div class="contact-details">
+                    <h3>Find me here <i class='bx bxs-hand-down'></i></h3>
+                    <p><i class="bx bx-envelope"></i> <a href="mailto:sonal@example.com">sonalupasani94@gmail.com</a></p>
+                    <p><i class="bx bxl-linkedin"></i> <a href="https://www.linkedin.com/in/sonal-upasani-315875b3/" target="_blank">linkedin/sonal</a></p>
+                    <p><i class="bx bxl-github"></i> <a href="https://github.com/SonalUpasani21" target="_blank">github.com/sonal</a></p>
+                </div>
+                <form class="contact-form" action="#" method="post" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Enter the subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="send-btn">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; <span id="year"></span> Sonal Upasani. All Rights Reserved. | Made with ❤️</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/sonal-upasani-315875b3/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/SonalUpasani21" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href= "mailto:sonalupasani94@gmail.com"><i class='bx bx-envelope'></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset: 0});
+    </script>
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
